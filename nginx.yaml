@@ -1,0 +1,9 @@
+- name: this play bbok is to install nginx
+  hosts: nginx
+  tasks:
+    - name: imstall nginx
+      ansible.builitn.yum:
+        name: nginx
+        state: installed
+
+        
